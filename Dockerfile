@@ -15,3 +15,6 @@ COPY ./ ./
 
 #default command
 CMD ["npm", "start"]
+
+#expose ports
+EXPOSE 8081
