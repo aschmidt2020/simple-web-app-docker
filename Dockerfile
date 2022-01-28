@@ -17,4 +17,4 @@ COPY ./ ./
 CMD ["npm", "start"]
 
 #expose ports
-EXPOSE 8081
+EXPOSE 3000

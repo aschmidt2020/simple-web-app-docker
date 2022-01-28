@@ -6,6 +6,6 @@ app.get('/', (req, res) => { //request and response
     res.send('Hi there dCC class - ASchmidt');
 });
 
-app.listen(8081, () => {
-    console.log('Listening to port 8081');
+app.listen(3000, () => {
+    console.log('Listening to port 3000');
 });
