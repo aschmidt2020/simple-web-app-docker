@@ -5,6 +5,9 @@ services:
   web:
     container_name: simple-web-app
     build: .
+    volumes:
+      - ./:/app
+      - /app/node_modules
     ports:
       - "3000:3000"
 
